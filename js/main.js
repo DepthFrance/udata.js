@@ -1270,7 +1270,7 @@ DESACTIVATION CHECKURL (car probleme API)
                         if (unique) {
                             tags.push(tag);
                             _Metaclic.container.data('tags', tags);
-                            //loadDataSets();
+                            loadDataSets();
                         }
                     })
                     .on('click', 'a[data-addLicense]', function(e) {
